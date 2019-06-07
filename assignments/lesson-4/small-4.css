@@ -46,7 +46,10 @@ li a:active {
 
 figure img {
     width: 250px;
-    padding: 0px;
-   
+    padding: 0px; 
     
+}
+
+footer {
+    width: 340px;
 }
