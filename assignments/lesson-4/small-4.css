@@ -1,0 +1,52 @@
+header {
+    background-color: #41BBAC;
+    max-width: 340px;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+}
+
+header img {
+    width: 250px;
+    padding: 0px;
+    
+}
+
+.motto {
+    padding: 0px;
+    color: #23807E;
+    font-size: 20px;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 340px;
+    background-color: #41BBAC;
+}
+
+li a {
+    display: block;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #23807E;
+    color: white;
+}
+
+li a:active {
+    background-color: #23807E;
+    color: white;
+    font-weight: bold; 
+}
+
+figure img {
+    width: 250px;
+    padding: 0px;
+   
+    
+}
