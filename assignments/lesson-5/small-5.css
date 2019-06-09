@@ -12,14 +12,12 @@ header {
 }
 
 header img {
-    float: left;
     width: 250px;
     padding: 0px;
     
 }
 
 .motto {
-    left: 150px;
     padding: 0px;
     color: #ffffff;
     font-size: 20px;
@@ -38,7 +36,7 @@ nav ul {
 }
 
 li {
-    float: right
+    float: left;
 }
 
 li a {
@@ -98,6 +96,7 @@ img {
     box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .contact img {
+    max-width: 650px;
     width: 100%;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
