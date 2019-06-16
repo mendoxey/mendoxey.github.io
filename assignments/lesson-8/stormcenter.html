@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+      <title>Table Build</title>
+      <meta charset="utf-8"/>
+      <link href="stormcenter.css" type="text/css" rel="stylesheet"/>     
+  </head>
+<body>
+    <form class="form">
+    <h2>Storm Center</h2>
+        <h4>Fill this form and submit the report</h4>
+    <div>
+        <label>First Name</label>
+        <input type="text" name="first-name" pattern="[a-zA-Z0]">
+    </div>
+    <div>    
+        <label>Last Name</label>
+        <input type="text" name="last-name">
+    </div>
+    <div>    
+        <label>Email</label>
+        <input type="email" name="email" placeholder="example@email.com">
+    </div>
+    <div>    
+        <label>Phone number</label>
+        <input type="tel" name="phone-number" required>
+    </div>
+    <div>    
+        <label>Zip Code</label>
+        <input type="number" name="zip-code" required>
+    </div>
+    <div>    
+        <label>Storm Date</label>
+        <input type="date" name="zip-code" required>
+    </div>
+    <div>
+        <label>Storm Type</label>
+        <input list="storm-type">
+        <datalist id="storm-type">
+            <option value="Flash Flood">Flash Flood</option>
+            <option value="Hail">Hail</option>
+            <option value="Hurricane">Hurricane</option>
+            <option value="Thunderstorm">Thunderstorm</option>
+            <option value="Tornado">Tornado</option>
+        </datalist>
+    </div>
+    <div>
+        <label>Storm Severity</label>
+        <!--<input type="range" name="points" min="0" max="10">-->
+        <input type="range" id="rating" value="1" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+		<span id="ratingvalue">1</span>
+    </div>
+    <div>
+        <label>Storm Region</label>
+        <select name="region">
+            <option value="select" selected disabled>Select Region...</option>
+            <option value="volvo">Preston</option>
+            <option value="saab">Sugar City</option>
+            <option value="opel">Fish Haven</option>
+        </select>
+    </div>
+    <div>
+        <label>User in-danger</label><br>
+        <input type="radio" name="danger" value="yes">Yes<br>
+        <input type="radio" name="danger" value="no">No<br>
+    </div>
+    <div>
+        <label>Additional information or comments</label><br>
+        <textarea name="comment" form="usrform">Enter text here...</textarea>
+    </div>
+    <button><a href="#" style="text-decoration: none">Submit</a></button>
+    </form>
+    <br>
+     <button><a href="https://mendoxey.github.io" style="text-decoration: none">Back to Home</a></button>
+</body>
+</html>
